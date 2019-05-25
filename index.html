@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Début de la partie Navbar -->
+    <div class="container-fluid" id="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="padding: 0 7.5%;">
+            <a class="navbar-brand" href="#"><img src="https://godotengine.org/themes/godotengine/assets/logo.svg" id="nav-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" id="firstItem">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Communuty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">More</a>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav ml-auto" id="rightLinks">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Learn</a>
+                    </li>
+                    <li class="nav-item" id="bag">
+                        <a class="nav-link" href="#">
+                            <img src="img/asset_lib.svg">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto" id="rightLinks">                
+                    <li class="nav-item">
+                        <img src="img/patreon.PNG" id="patreonLogo">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<!-- Fin de la partie Navbar -->
+
+<!-- Début de la partie Image Principale -->
+    <div id="imagePrincipale" ></div>
+<!-- Fin de la partie Image Principale -->
+
+<!-- Début de la partie Message Principale -->
+    <div style="background-color: #333f67;">
+        <div class="container messagePrincipale">
+            <div class="row">
+                <div class="col-lg-6 message">
+                    <h1 class="MessageHeader">THE GAME ENGINE YOU WAITED FOR.</h1>
+                    <p class="MessageContent">
+                        Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.
+                    </p>
+                    <p class="MessageContent">
+                        Godot is completely free and open-source under the very permissive MIT license.
+                        No strings attached, no royalties, nothing. Your game is yours, down to the last line of
+                        engine code.
+                    </p>
+
+                    <div style="margin-top: 10%">
+                        <div class="btns">
+                            <a href="#" id="buttonDownload">Download<a href="#" id="verss">3.1</a></a>
+                            <button type="button" class="btn btn-outline-primary" id="buttonMore">Learn More</button>
+                        </div>
+                 
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" id="imgSection">
+                    <img src="https://godotengine.org/themes/godotengine/assets/home/graphic.svg" id="messageIMG">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Fin de la partie Message Principale -->
+
+<!-- Début de la partie News -->
+<!-- Fin de la partie News -->
+
+<!-- Début de la partie Get Involved -->
+    <div class="container getInvolved">
+        <div class="row">
+            <div class="col-12 involvedText">
+                <h2>Get Involved</h2>
+                <p>Join the community and help create a game engine that belongs to everybody.</p>
+            </div>
+        </div>
+
+        <div class="row involvedContent">
+            <div class="col-lg-4 text-center">
+                <img src="https://godotengine.org/themes/godotengine/assets/home/code.svg" alt="">
+                <h4 class="involvedh4">Code</h4>
+                <p>
+                    If you know how to code,
+                    and enjoy fun and challenging problems,
+                    you can help by fixing bugs or creating cool new features.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img src="https://godotengine.org/themes/godotengine/assets/home/document.svg" alt="">
+                <h4 class="involvedh4">Document</h4>
+                <p>
+                    Documentation quality is essential in a game engine;
+                    help make it better by updating the API reference,
+                    writing new guides or submitting corrections.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img src="https://godotengine.org/themes/godotengine/assets/home/report.svg" alt="">
+                <h4 class="involvedh4">Report</h4>
+                <p>
+                    Found a problem with the engine? Don't forget to report
+                    it so that developers can track it down.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+<!-- Fin de la partie Get Involved -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+body {
+    background-color: #eff1f5;
+}
+
+#header {
+    max-width: 85vw;
+}
+
+#nav-logo {
+    width: 136px;
+    height: 48px;
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+li {
+    padding:  0 2%;
+}
+
+#firstItem {
+    padding-left: 12%
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333f67;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f75389;
+}
+
+#rightLinks li{
+    padding-right: 5%
+}
+
+#patreonLogo {
+    height: inherit;
+    padding-right: 80px;
+}
+
+#imagePrincipale {
+    background-image: url("https://godotengine.org/themes/godotengine/assets/home/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 600px;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(51, 63, 103, 0.4);
+    background-blend-mode: darken;
+}
+
+.messagePrincipale {
+    background-color: #333f67;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+
+.message{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.MessageHeader {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.MessageContent {
+    color: lightsteelblue;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 992px) {
+    #imgSection {
+      display: none;
+    }
+}
+
+#buttonDownload {
+    font-size: 1.1em;
+    border-radius: 0;
+    padding: 16px 32px;
+    color: #333f67;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #FFF;
+    border: 0px solid black;
+}
+
+
+#verss{
+    font-size: 1.1em;
+    border-radius: 0;
+    padding: 16px 16px;
+    color: #333f67;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #3D8FCC;
+    color: white;
+    border: 0px solid black;
+}
+
+.btns a {
+    text-decoration: none;
+}
+
+
+a#buttonDownload:hover ~ #verss, #buttonDownload:hover {
+    color: #f75389;
+    background-color: white;
+}
+
+#buttonMore {
+    font-size: 1.1em;
+    border-radius: 0;
+    padding: 16px 32px;
+    border: 0px;
+    color: #3D8FCC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#buttonMore:hover {
+    color: #f75389;
+    background-color: initial;
+}
+
+#messageIMG {
+    height: 100%;
+    display: block;
+}
+
+.getInvolved {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.involvedText h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #546b99;
+    margin-top: 0px;
+}
+
+
+.involvedText p {
+    display: block;
+    margin: 2em 0;
+}
+
+.involvedh4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #546b99;
+    margin-top: 0px;
+}
+
+.involvedh4 + p {
+    font-size: 1.1em;
+}
+
+.involvedh4 + p + a {
+    text-decoration: none;
+    color: #3d8fcc;
+}
+
+.involvedh4 + p + a:hover {
+    color: #f75389;
+}
